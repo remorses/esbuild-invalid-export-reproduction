@@ -1,0 +1,25 @@
+{
+    "name": "reproduction-esbuild-require-in-esm-with-externals",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/remorses/reproduction-esbuild-require-in-esm-with-externals.git",
+    "author": "remorses <beats.by.morse@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "build": "node -r sucrase/register build.ts"
+    },
+    "dependencies": {
+        "@esbuild-plugins/all": "^0.0.6",
+        "esbuild": "^0.8.26",
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1",
+        "react-router": "5.2.0",
+        "react-router-dom": "5.2.0",
+        "react-router-hash-link": "1.2.2"
+    },
+    "devDependencies": {
+        "@types/node": "^14.14.14",
+        "@types/resolve": "^1.17.1",
+        "sucrase": "^3.16.0"
+    }
+}
