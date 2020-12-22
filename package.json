@@ -11,8 +11,8 @@
     "dependencies": {
         "@esbuild-plugins/all": "^0.0.6",
         "esbuild": "^0.8.26",
-        "react": "^17.0.1",
-        "react-dom": "^17.0.1",
+        "react": "17.0.1",
+        "react-dom": "17.0.1",
         "react-router": "5.2.0",
         "react-router-dom": "5.2.0",
         "react-router-hash-link": "1.2.2"
